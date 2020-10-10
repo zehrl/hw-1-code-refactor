@@ -1,29 +1,54 @@
 # Homework 1: Code Refactor
 
+[Link to Assignment Repository](https://github.com/zehrl/hw-1-code-refactor)<br />
+[Link to Assignment Web](https://zehrl.github.io/hw-1-code-refactor/)
+
+---
+
 ## Description
 
-### What?
-    In this assignment, I was tasked to take on the role of a junior front-end developer. 
-    -did you learn?
+### What was the assignment?
 
-    IMAGE OF WEBSITE
+In this assignment, I was tasked to take on the role of a junior front-end developer and help "refactor" code. The project provided was a mock-up of a marketing agency's website with a typical header/body/footer layout (see below).
+
+![Image of Mockup Website](assets/images/01-HTML-Git-CSS_02-Homework_Assets_01-html-css-git-homework-demo.png)
 
 ### Why?
-    -Create a GitHub repository and follow standard naming conventions
 
-    -Learn to write informative & adequate README files
-### How?
-    
-    -Following coding standards LINK & LINK etc.
+Given the user story of the application, it was my job to improve accessibility of the HTML code to optimize the site for search engines. As an optional task, I condensed the CSS selectors into common groups to make things easier to read.
 
-## Usage
-    -Instructions & Examples for use (screenshots as needed)
-    -Link to application
+## How?
+
+**Accessibility**
+
+To improve accessibility, I used the knowledge gained on HTML elements to appropriately select the correct tag. I went through each tag and asked myself, "Is there something more specific or fitting for this piece of the webpage?" Most "div" elements in this assignment needed to be changed.
+
+**Condensing CSS**
+
+To improve "readability" in the stylesheet, I went through the .css file and identified what elements & classes shared identical styling. I then combined the code into one declaration. 
+
+### What did I learn?
+
+In this assignment, I was able to learn about various topics such as:
+* Learning to write informative & adequate README files
+* Troubleshooting HTML ID link issues
+* Correcting HTML element tag usage
+* Combining CSS selectors with common properties & values
+* Creating a GitHub repository and following standard naming conventions
 
 ---
 
 ## Credits
-    -Collaborators, 3rd-party assets, tutorials
+
+Below were the main resources used to succeed at this assignment:
+
+* [HTML Resources](https://www.w3schools.com/html/default.asp)
+
+* [General README Markup](https://guides.github.com/features/mastering-markdown/)
+
+* [GitHub Specific README Markup](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
+
+---
 
 ## License
 **MIT License**
